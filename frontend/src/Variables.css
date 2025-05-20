@@ -1,0 +1,95 @@
+* { 
+    font-family: 'Nunito Sans' !important;
+    margin: 0px;
+  }
+
+:root {
+    --blue1: rgb(169, 234, 249);
+    --blue2: #2ABBDA;
+    --dark-blue: #0A2A5D;
+    --grey1: #E6EEF2;
+    --grey2: #CFDDE5;
+    --grey3: #ADC0CC;
+    --grey4: #8FA5B2;
+    --grey5: #607380;
+    --red: rgb(233, 93, 93)
+}
+
+.shadow {
+    box-shadow: 0px 2.56px 5.12px 3.12px rgba(151, 177, 208, 0.25);
+    border-radius: 10px;
+}
+ 
+.header1 {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+
+.header2 {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.header3 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.header4 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.header5 {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.body1 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.body2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.body3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.body4 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.body5 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.body6, #mui-toggle-button {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.error {
+    color: var(--red);
+}
+
+.rotate {
+    animation: spin 2s linear infinite;;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    } 
+    to {
+      transform: rotate(360deg);
+    }
+  }
+

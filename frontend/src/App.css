@@ -1,0 +1,149 @@
+@import url("./components/css/index.css");
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  color: var(--dark-blue);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.app-body {
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 40px;
+  padding-left: 180px;
+}
+
+.body-header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  align-self: stretch;
+  height: fit-content;
+  white-space: nowrap;
+}
+
+.body-header h1{
+  margin: 0;
+  height: fit-content;
+}
+
+.list-item {
+  width: 100% !important;
+  border-radius: 0px !important;
+}
+.list-item button {
+  background-color: white;
+  padding:10px;
+  width: 100%;
+}
+
+th {
+  text-align: start;
+  border-bottom: 1px solid var(--grey3);
+}
+
+tr > * {
+  padding: 10px 0px;
+  vertical-align: baseline;
+}
+
+table {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-self: center;
+  padding-top: 30vh;
+  width: 400px;
+}
+
+.table-info {
+  width: 100%;
+  table-layout: auto;
+}
+
+.table-info-family {
+  padding-bottom: 10px;
+}
+
+.table-info th {
+  border: none;
+  width: 1px;
+  font-size: 12px;
+}
+
+.table-info td {
+  padding-left: 20px;
+}
+
+.several-pages-body {
+  background-color:var(--grey1);
+  border-radius: 0px 10px 10px 10px;
+  height:auto; 
+  margin-bottom: 40px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  justify-self:stretch;
+  padding:20px
+}
+
+.rrr {
+  align-self: flex-end;
+}
+
+.table-body-div {
+  background-color: white;
+  border-radius: 10px;
+  width: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.table-body-div .custom-input-div {
+  width: auto;
+  max-width: 500px;
+  padding: 0px;
+}
+
+.table-info-family :last-child > td {
+  padding: 0px;
+  display: flexbox;
+  width: auto;
+  justify-items: end;
+}
+
+svg.small {
+  stroke-width: 3px;
+}
+
+svg.big {
+  stroke-width: 2px;
+}
+
+.dropdown-icon-closed {
+  transform: rotate(180deg)
+}
+
+.dropdown-icon-opened {
+  transform: rotate(-90deg)
+}
+

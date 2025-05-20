@@ -1,0 +1,73 @@
+.multiselect-body {
+    position: relative;
+}
+
+.chips-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   align-items: center;
+   padding: 5px;
+   border-radius: 8px;
+   border: solid 2px;
+   border-color: var(--grey2);
+}
+
+.chip {
+    background-color: var(--blue1);
+    display: flex;
+    gap: 10px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    align-content: center;
+ }
+ 
+ .chip *{
+    font-size: 14px;
+    padding: 0;
+    background: transparent;
+ }
+
+ .chip span {
+    height: fit-content;
+ }
+
+ .chip button {
+    height: auto;
+    display: block;
+ }
+
+.chips-input {
+    flex: 1 1 100px;
+    min-width: 100px;
+    border: none;
+}
+
+.chips-input:focus {
+    outline: none;
+}
+
+.multiselect-option {
+    display: flex;
+    gap: 5px;
+    align-content: center;
+}
+
+.multiselect-options-container {
+    display: flex;
+    max-height: 180px;
+    overflow-y: scroll;
+    background-color: white;
+    right: 0;
+    left: 0;
+    top:calc(100% - 5px);
+    border-radius: 0 0 8px 8px;
+    border: solid 2px;
+    border-top: none;
+    border-color: var(--grey2);
+    padding-left: 8px;
+    padding-top: 4px;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+}

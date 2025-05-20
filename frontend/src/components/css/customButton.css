@@ -1,0 +1,66 @@
+button {
+    padding: 4px 10px;
+    display: flex;
+    justify-content: start;
+    border: None;
+    height: fit-content;
+    width: fit-content;
+    white-space: nowrap;
+    cursor: pointer;
+    min-width: fit-content;
+}
+
+.custom-button-div {
+    margin: 0px;
+    padding: 0px;
+    min-height: fit-content;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: fit-content;
+    text-align: center !important;
+}
+
+.custom-button-div > button:hover + div {
+    opacity: 0.02;
+    display: block
+}
+
+.custom-button-div > button:active + div {
+    opacity: 0.05;
+    display: block
+}
+
+.button-overlay {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: var(--dark-blue);
+    opacity: 0.2;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.primary button {
+    background-color: var(--blue1);
+}
+
+
+.secondary button {
+    background-color: var(--grey1);
+}
+
+.transparent button {
+    background-color: transparent;
+}
+
+.red-button button {
+    background-color: var(--red);
+    color: white;
+}

@@ -1,0 +1,50 @@
+.custom-input-div {
+    display: flex;
+    flex-direction: column-reverse;
+    height: fit-content;
+    position: relative;
+}
+
+.custom-input-div p {
+    margin: 0;
+    position:absolute;
+    top: 3px;
+    opacity: 0;
+    color: var(--grey4);
+    transition: 0.07s;
+    height: 0px;
+    overflow: visible;
+}
+
+.custom-input-div input {
+    z-index: 1;
+    display: block;
+    border: solid 2px;
+    border-radius: 8px;
+    border-color: var(--grey2);
+    padding: 4px 10px 4px 10px;
+    color: inherit;
+}
+
+.css-hlgwow {
+    padding: 5px !important;
+    color: var(--dark-blue);
+}
+
+[class$="indicatorContainer"] {
+    padding: 0px 5px !important;
+    margin: 0px;
+}
+
+.custom-input-div input::placeholder {
+    color: var(--grey4);
+}
+
+.custom-input-div > input:focus + p {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.custom-input-div > input:focus::placeholder {
+    opacity: 0;
+}

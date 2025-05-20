@@ -1,0 +1,31 @@
+.document-filter-component-body {
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    background-color:var(--grey1);
+    border-radius:10px;
+    padding:10px;
+    min-width: fit-content;
+}
+
+.document-filter-component-body :nth-child(1) {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    min-width: 0; 
+}
+
+.document-filter-component-body :nth-child(1) * {
+    flex-grow: 1;
+}
+
+.document-filter-component-body :nth-child(1) > :nth-child(-n+2) {
+    max-width: 150px;
+}
+
+.document-filter-component-body svg {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+}

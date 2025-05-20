@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@date-fns/upgrade": "^1.0.3",
+    "date-fns": "^4.1.0",
+    "formik": "^2.4.6",
+    "use-global-hook": "^0.3.0"
+  }
+}

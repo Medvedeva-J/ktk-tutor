@@ -1,0 +1,21 @@
+#mui-toggle-button {
+    background-color: color-mix(in srgb-linear, var(--grey1) 100%, var(--dark-blue) 20%);
+    border-radius: 8px 8px 0 0;
+    padding: 4px 8px;
+    color: inherit;
+    text-transform: none;
+    border: none
+}
+
+#mui-toggle-button[class*="Mui-selected"] {
+    background-color: var(--grey1); 
+}
+
+.MuiToggleButtonGroup-root {
+    gap: 2px;
+}
+
+.custom-toggle-group-container {
+    padding-right: 20px;
+    min-width: fit-content;
+}
